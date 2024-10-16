@@ -1,2 +1,2 @@
-ultralytic
+ultralytics
 cvzone
