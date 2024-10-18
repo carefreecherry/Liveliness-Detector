@@ -10,10 +10,10 @@ confidence = 0.6
 cap = cv2.VideoCapture(0)  # For Webcam
 cap.set(3, 640)
 cap.set(4, 480)
-# cap = cv2.VideoCapture("../Videos/motorbikes.mp4")  # For Video
+#cap = cv2.VideoCapture(r"C:\Users\shrey\Liveliness\20220316_152757.mp4")  # For Video
 
 
-model = YOLO(r"C:\Users\shrey\Liveliness\models\l_version_1_300.pt")
+model = YOLO(r"C:\Users\shrey\Liveliness\models\ModelTrain.pt")
 
 classNames = ["fake", "real"]
 
