@@ -1,2 +1,3 @@
+mediapipe
 ultralytics
 cvzone
